@@ -1,0 +1,7 @@
+#enable use of toolchains
+build --incompatible_enable_cc_toolchain_resolution
+
+build --java_runtime_version=localjdk_11 --tool_java_runtime_version=localjdk_11
+
+build --host_platform=//platforms:host1_platform
+build --platforms=//platforms:host1_platform
